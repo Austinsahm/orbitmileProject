@@ -2,19 +2,28 @@
 
 import { useFormStatus } from "react-dom";
 import { type ComponentProps } from "react";
+import { Button } from "@/components/ui/button";
 
-type Props = ComponentProps<"button"> & {
+type ButtonVariant = "link" | "default" | "destructive" | "outline" | "secondary" | "ghost";
+
+type Props = Omit<ComponentProps<"button">, 'ref'> & {
   pendingText?: string;
+  variant?: ButtonVariant; // Make this optional
 };
 
-export function SubmitButton({ children, pendingText, ...props }: Props) {
+export function SubmitButton({
+  children,
+  pendingText,
+  variant,
+  ...props
+}: Props) {
   const { pending, action } = useFormStatus();
 
   const isPending = pending && action === props.formAction;
 
   return (
-    <button {...props} type="submit" aria-disabled={pending}>
+    <Button {...props} type="submit" variant={variant} aria-disabled={pending}>
       {isPending ? pendingText : children}
-    </button>
+    </Button>
   );
 }

@@ -1,5 +1,7 @@
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
+import { Manrope } from "next/font/google";
+import { cn } from "@/lib/utils";
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -11,6 +13,18 @@ export const metadata = {
   description: "The fastest way to build apps with Next.js and Supabase",
 };
 
+const fontHeading = Manrope({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-heading",
+});
+
+const fontBody = Manrope({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-body",
+});
+
 export default function RootLayout({
   children,
 }: {
@@ -18,10 +32,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={GeistSans.className}>
-      <body className="bg-background text-foreground">
-        <main className="min-h-screen flex flex-col items-center">
-          {children}
-        </main>
+      <body
+        className={cn("antialiased", fontHeading.variable, fontBody.variable)}
+      >
+        {/* <main className="min-h-screen flex flex-col items-center"> */}
+        {children}
+        {/* </main> */}
       </body>
     </html>
   );

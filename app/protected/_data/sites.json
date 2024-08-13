@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Olumo Rock",
+    "location": "Abeokuta, Ogun State",
+    "description": "Olumo Rock is a popular tourist attraction in Nigeria, known for its historical significance and stunning panoramic views of Abeokuta.",
+    "image_url": "https://example.com/images/olumo_rock.jpg",
+    "coordinates": {
+      "latitude": 7.1574,
+      "longitude": 3.3503
+    },
+    "category": "Historical Site",
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 4.5,
+        "comment": "Amazing experience and a great view of the city from the top."
+      },
+      {
+        "user": "Jane Smith",
+        "rating": 4.0,
+        "comment": "A must-visit place with rich history and culture."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Yankari National Park",
+    "location": "Bauchi State",
+    "description": "Yankari National Park is a large wildlife park located in the south-central part of Bauchi State, Nigeria. It is home to several natural warm water springs and a wide variety of flora and fauna.",
+    "image_url": "https://example.com/images/yankari_national_park.jpg",
+    "coordinates": {
+      "latitude": 9.75,
+      "longitude": 10.5
+    },
+    "category": "National Park",
+    "reviews": [
+      {
+        "user": "Alice Johnson",
+        "rating": 5.0,
+        "comment": "A fantastic place to see wildlife and enjoy nature."
+      },
+      {
+        "user": "Bob Lee",
+        "rating": 4.5,
+        "comment": "Beautiful park with lots of activities and amazing wildlife."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Obudu Mountain Resort",
+    "location": "Obudu, Cross River State",
+    "description": "Obudu Mountain Resort, formerly known as Obudu Cattle Ranch, is a ranch and resort on the Obudu Plateau in Cross River State, Nigeria. It features a cable car ride from the base to the top of the plateau, offering breathtaking views.",
+    "image_url": "https://example.com/images/obudu_mountain_resort.jpg",
+    "coordinates": {
+      "latitude": 6.3864,
+      "longitude": 9.4163
+    },
+    "category": "Resort",
+    "reviews": [
+      {
+        "user": "Chris Evans",
+        "rating": 5.0,
+        "comment": "An incredible place with stunning views and lots of activities."
+      },
+      {
+        "user": "Emma Wilson",
+        "rating": 4.8,
+        "comment": "A great destination for a family vacation. The cable car ride is a highlight."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Lekki Conservation Centre",
+    "location": "Lagos, Lagos State",
+    "description": "Lekki Conservation Centre is a large expanse of wetlands and forests that has been reserved for the conservation of wildlife and mangrove forests. It features one of the longest canopy walkways in Africa.",
+    "image_url": "https://example.com/images/lekki_conservation_centre.jpg",
+    "coordinates": {
+      "latitude": 6.4426,
+      "longitude": 3.5374
+    },
+    "category": "Conservation Area",
+    "reviews": [
+      {
+        "user": "David Brown",
+        "rating": 4.7,
+        "comment": "A peaceful and beautiful place to experience nature in Lagos."
+      },
+      {
+        "user": "Linda Green",
+        "rating": 4.3,
+        "comment": "Great for a day out with family and friends. The canopy walk is a thrilling experience."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Nike Art Gallery",
+    "location": "Lagos, Lagos State",
+    "description": "Nike Art Gallery is one of the largest art galleries in Nigeria, featuring a vast collection of traditional and contemporary African art. It is a cultural center where artists can showcase their works.",
+    "image_url": "https://example.com/images/nike_art_gallery.jpg",
+    "coordinates": {
+      "latitude": 6.4446,
+      "longitude": 3.4205
+    },
+    "category": "Art Gallery",
+    "reviews": [
+      {
+        "user": "Emily White",
+        "rating": 4.9,
+        "comment": "A beautiful collection of art and a must-visit for art lovers."
+      },
+      {
+        "user": "Michael Davis",
+        "rating": 4.6,
+        "comment": "Inspiring place with a wide variety of artworks. The staff are very friendly and knowledgeable."
+      }
+    ]
+  }
+]
